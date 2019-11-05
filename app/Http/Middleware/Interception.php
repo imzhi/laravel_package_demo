@@ -13,8 +13,8 @@ class Interception
         if (ends_with($route_name, '::profile.pwd')) {
             return response()->fai(['msg' => '演示站点，禁止修改密码']);
         }
-        $user = request()->user('admin_user');
-        if (ends_with($route_name, '::manageuser.create') && $user && $user->id === 1) {
+        $id = intval(request()->input('id', 0));
+        if (ends_with($route_name, '::manageuser.create') && $id === 1) {
             return response()->fai(['msg' => '演示站点，禁止修改初始管理员资料']);
         }
 

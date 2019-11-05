@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "ca37b3cedb2aa129668b37523f1c3776",
@@ -572,16 +572,16 @@
         },
         {
             "name": "imzhi/jf-admin",
-            "version": "v1.3.1",
+            "version": "v1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/imzhi/jf-admin.git",
-                "reference": "904a28e78585e806bdbe6b47eda2d85eae7368b4"
+                "reference": "229a47b92bc201458af66aafc14a33603360507e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imzhi/jf-admin/zipball/904a28e78585e806bdbe6b47eda2d85eae7368b4",
-                "reference": "904a28e78585e806bdbe6b47eda2d85eae7368b4",
+                "url": "https://api.github.com/repos/imzhi/jf-admin/zipball/229a47b92bc201458af66aafc14a33603360507e",
+                "reference": "229a47b92bc201458af66aafc14a33603360507e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -621,7 +621,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-11-04T08:28:28+00:00"
+            "time": "2019-11-05T01:33:19+00:00"
         },
         {
             "name": "intervention/image",

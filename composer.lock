@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4ec85616b64bfc322bc7259f14718e4",
+    "content-hash": "ca37b3cedb2aa129668b37523f1c3776",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -572,11 +572,23 @@
         },
         {
             "name": "imzhi/jf-admin",
-            "version": "dev-master",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imzhi/jf-admin.git",
+                "reference": "904a28e78585e806bdbe6b47eda2d85eae7368b4"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/yxz/samba_share/project/jf-admin",
-                "reference": "b454210f92550d49c2b543cc15d305a7d002db86"
+                "type": "zip",
+                "url": "https://api.github.com/repos/imzhi/jf-admin/zipball/904a28e78585e806bdbe6b47eda2d85eae7368b4",
+                "reference": "904a28e78585e806bdbe6b47eda2d85eae7368b4",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "doctrine/annotations": "^1.8",
@@ -605,14 +617,11 @@
                     "Imzhi\\JFAdmin\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Imzhi\\JFAdmin\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
-            ]
+            ],
+            "time": "2019-11-04T08:28:28+00:00"
         },
         {
             "name": "intervention/image",
@@ -5634,9 +5643,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "imzhi/jf-admin": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

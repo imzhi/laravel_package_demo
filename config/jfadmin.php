@@ -51,7 +51,7 @@ return [
         'prefix' => 'jfadmin',
         'namespace' => 'App\\JFAdmin\\Controllers',
         'as' => 'jfadmin::',
-        'middleware' => ['web', 'jfadmin'],
+        'middleware' => ['web', 'jfadmin', 'interception'],
         'domain' => env('JFA_ROUTE_DOMAIN'),
     ],
 ];

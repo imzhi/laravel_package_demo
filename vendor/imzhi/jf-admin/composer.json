@@ -1,0 +1,38 @@
+{
+    "name": "imzhi/jf-admin",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.3",
+        "mews/captcha": "^2.2",
+        "spatie/laravel-activitylog": "^2.8",
+        "spatie/laravel-permission": "^2.37",
+        "doctrine/annotations": "^1.8",
+        "laravel/framework": "~5.5"
+    },
+    "require-dev": {
+        "laravel/laravel": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imzhi\\JFAdmin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Imzhi\\JFAdmin\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imzhi\\JFAdmin\\JFAdminServiceProvider"
+            ],
+            "aliases": {
+                "JFAdmin": "Imzhi\\JFAdmin\\Facades\\JFAdmin"
+            }
+
+        }
+    },
+    "minimum-stability": "dev"
+}

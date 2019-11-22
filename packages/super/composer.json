@@ -12,7 +12,10 @@
         "laravel": {
             "providers": [
                 "Imzhi\\Super\\SuperServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Super": "Imzhi\\Super\\Facades\\Super"
+            }
         }
     }
 }

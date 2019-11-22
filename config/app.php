@@ -177,7 +177,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        Imzhi\Super\SuperServiceProvider::class,
+        // Imzhi\Super\SuperServiceProvider::class,
 
     ],
 
@@ -227,7 +227,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Super' => Imzhi\Super\Facades\Super::class,
+        // 'Super' => Imzhi\Super\Facades\Super::class,
 
     ],
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca37b3cedb2aa129668b37523f1c3776",
+    "content-hash": "139cb216d097995053c8f570ef5cfb2f",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -622,6 +622,33 @@
                 "MIT"
             ],
             "time": "2019-11-05T01:33:19+00:00"
+        },
+        {
+            "name": "imzhi/super",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/home/yxz/samba_share/project/laravel55/packages/super",
+                "reference": "448ce46e14cfc5072e530188d21198982869987e"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Imzhi\\Super\\SuperServiceProvider"
+                    ],
+                    "aliases": {
+                        "Super": "Imzhi\\Super\\Facades\\Super"
+                    }
+                }
+            },
+            "authors": [
+                {
+                    "name": "imzhi",
+                    "email": "yxz_blue@126.com"
+                }
+            ],
+            "description": "this is sup\b\b\b"
         },
         {
             "name": "intervention/image",
@@ -5643,7 +5670,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "imzhi/super": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

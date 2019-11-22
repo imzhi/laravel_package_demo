@@ -884,6 +884,35 @@
         ]
     },
     {
+        "name": "imzhi/super",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "/home/yxz/samba_share/project/laravel55/packages/super",
+            "reference": "448ce46e14cfc5072e530188d21198982869987e"
+        },
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Imzhi\\Super\\SuperServiceProvider"
+                ],
+                "aliases": {
+                    "Super": "Imzhi\\Super\\Facades\\Super"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "authors": [
+            {
+                "name": "imzhi",
+                "email": "yxz_blue@126.com"
+            }
+        ],
+        "description": "this is sup\b\b\b"
+    },
+    {
         "name": "intervention/image",
         "version": "2.5.1",
         "version_normalized": "2.5.1.0",

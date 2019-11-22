@@ -1,0 +1,18 @@
+{
+    "name": "imzhi/super",
+    "description": "this is sup\b\b\b",
+    "authors": [
+        {
+            "name": "imzhi",
+            "email": "yxz_blue@126.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imzhi\\Super\\SuperServiceProvider"
+            ]
+        }
+    }
+}

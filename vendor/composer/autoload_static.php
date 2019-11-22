@@ -109,6 +109,7 @@ class ComposerStaticInit28c736b77a7eb1cd07e24b84682fb136
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
+            'Imzhi\\Super\\' => 12,
             'Imzhi\\JFAdmin\\' => 14,
             'Illuminate\\' => 11,
         ),
@@ -331,6 +332,10 @@ class ComposerStaticInit28c736b77a7eb1cd07e24b84682fb136
         'Intervention\\Image\\' => 
         array (
             0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
+        ),
+        'Imzhi\\Super\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/super',
         ),
         'Imzhi\\JFAdmin\\' => 
         array (
@@ -1921,6 +1926,9 @@ class ComposerStaticInit28c736b77a7eb1cd07e24b84682fb136
         'Imzhi\\JFAdmin\\Requests\\ManageUserRolesDistribute' => __DIR__ . '/..' . '/imzhi/jf-admin/src/Requests/ManageUserRolesDistribute.php',
         'Imzhi\\JFAdmin\\Requests\\Pwd' => __DIR__ . '/..' . '/imzhi/jf-admin/src/Requests/Pwd.php',
         'Imzhi\\JFAdmin\\Seeds\\AdminSeeder' => __DIR__ . '/..' . '/imzhi/jf-admin/src/Seeds/AdminSeeder.php',
+        'Imzhi\\Super\\Facades\\Super' => __DIR__ . '/../..' . '/packages/super/src/Facades/Super.php',
+        'Imzhi\\Super\\Super' => __DIR__ . '/../..' . '/packages/super/src/Super.php',
+        'Imzhi\\Super\\SuperServiceProvider' => __DIR__ . '/../..' . '/packages/super/src/SuperServiceProvider.php',
         'Intervention\\Image\\AbstractColor' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractColor.php',
         'Intervention\\Image\\AbstractDecoder' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractDecoder.php',
         'Intervention\\Image\\AbstractDriver' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractDriver.php',

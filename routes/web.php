@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
+    echo Super::hello();
+    echo Super::getFacadeRoot()::VERSION;
     return view('welcome');
 });

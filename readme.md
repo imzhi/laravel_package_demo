@@ -1,1 +1,1 @@
-这是 [imzhi/jf-admin](https://github.com/imzhi/jf-admin) 的演示站点。
+laravel 扩展包演示项目
